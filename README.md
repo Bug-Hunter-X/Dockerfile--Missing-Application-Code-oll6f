@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to copy the application code into the image. The initial Dockerfile is missing a source for the COPY instruction, causing the container to fail to run due to the missing application code. The solution demonstrates how to correctly copy the application code into the image.
